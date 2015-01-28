@@ -1,0 +1,123 @@
+body{
+	margin: 0px;
+}
+
+.name{
+	color: white;
+	padding-left: 10px;
+
+}
+.backgroundimg{
+	text-align:center;
+
+}
+
+.side{
+	position: fixed;
+	
+	background: black;
+	height: 100%;
+	width:40%;
+	right: 0;
+}
+.headings{
+	font-size: 45;
+	color: white;
+	padding-top: 100px;
+	padding-left: 10px;
+
+
+}
+.aboutside{
+	position: fixed;
+	bottom: 0px;
+	color: white;
+	font-size: 13px;
+	margin: 5px;
+}
+.pic{
+	height: 80%;
+	width:60%;
+	background-color: rgb(0,0,0);
+}
+.about{
+	height: 80%;
+	width:60%;
+	background-color: rgb(218,165,32);
+	margin: 0px;
+}
+.aboutpic{
+	padding-left: 50px;
+	float: left;
+	
+}
+.circularpic{
+	height: 200px;
+	width: 200px;
+	border-radius: 200px;
+	
+}
+.aboutdetails{
+	position: relative;
+	padding-left: 17px;
+	overflow: scroll;
+	height: 70%;
+}
+.links{
+	background-color: rgb(123,74,65);
+	height: 80%;
+	width:60%;
+	margin: 0px;
+}
+.linkspic{
+	padding-left: 50px;
+	float: left;
+}
+.linkspicture{
+	height: 100px;
+	width: 300px;
+
+}
+.linkspic2{
+	position: relative;
+	/*padding-left: 17px;
+	margin-left: 50px;*/	
+	left: 15px;
+}
+.blogroll{
+	background-color: rgb(25,96,35);
+	height: 80%;
+	width:60%;
+	margin: 0px;
+}
+.circularpicture2{
+	height: 125px;
+	width: 125px;
+	border-radius: 125px;
+	
+}
+.circularpicture2:hover{
+	height: 250px;
+	width:250px;
+	
+
+}
+.imagedisplay{
+	padding-left: 50px;
+	float:left;
+}
+
+.feedback{
+	background-color: rgb(241,85,37);
+	height: 80%;
+	width:60%;
+	margin: 0px;
+}
+.textfield{
+	font-size: 25px;
+	margin-left: 20px;
+	float:left; 
+}
+.submit{
+	padding: 150px;
+}
