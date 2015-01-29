@@ -114,14 +114,30 @@ body{
 }
 .textfield{
 	font-size: 25px;
-	margin-left: 20px;
+	
 	float:left; 
+	text-align: center;
+	padding: 51px;
+
 }
 .submit{
-	padding-top: 150px;
-	padding-left: 150px;
+	padding-top: 43px;
+	padding-left: 129px;
+	float: left;
 }
-.bda{
+.bday{
 	color: white;
 
+}
+.feedback_heading
+{
+	padding-left: 92px;
+
+}
+.feedback_picture{
+	
+	position: relative;
+	float:right;
+	padding-right: 90px;
+	
 }

@@ -33,7 +33,7 @@
 		<div class="side">
 			<p class="name">Amit Manchanda</p>
 			<br>
-			<p id="bday" class="bda">Birthday Soon<br><br> OCTOBER 27</p>
+			<p id="bday" class="bday">Birthday Soon<br><br> OCTOBER 27</p>
 
 			<p class="headings"><b><a href="#about">ABOUT</a>
 			<br />
@@ -57,13 +57,13 @@
 		</div>
 		<div class="about">
 			<br />
-			<h1 ><a name="about">ABOUT</a></h1>
+			<h1 ><a name="about"  class="feedback_heading">ABOUT</a></h1>
 			
 			<br />	
 			<div class="aboutpic">
 				<img src="person.jpg" class="circularpic">
 			</div>
-			<div class="aboutdetails">
+			<div class="aboutdetails" >
 				<p>I, Amit Manchanda, am a student of Electronics and communication Engineering, IIT Roorkee- 2018. Being a member of SDSLabs is a journey involving a tremendous amount of learning. I was initially introduced to various technologies like PHP, Javascript, AJAX, NodeJS, Python, MVC, git, etc. Even though we may have launched mostly web applications, I got to learn about many different things regarding Linux, networking, server management, security, etc. We have some of the brightest and most helpful people  of IIT-R working at SDSLabs. Every visit to lab has provided me with knowledge about new concepts or some information regarding upcoming technologies.</p>
 				<p>
 				Even though I am a part of many other campus groups, I can say that SDSLabs has been an immense source of knowledge and played an integral part in shaping my life here at IIT-R.</p>
@@ -79,7 +79,7 @@
 
 		<div class="links">
 			<br />
-			<h1><a name="link">LINKS</a></h1>
+			<h1><a name="link"  class="feedback_heading">LINKS</a></h1>
 			<br />
 			<div class="linkspic">
 				<a href="http://www.facebook.com" target="_blank"><img src="fb.jpg" class="linkspicture"></a>
@@ -109,7 +109,7 @@
 
 		<div class="blogroll">
 			<br />
-			<h1><a name="blog">BLOG ROLL</a></h1>
+			<h1><a name="blog"  class="feedback_heading">BLOG ROLL</a></h1>
 			
 			<div class="imagedisplay">
 				<img src="r1.jpg" class="circularpicture2">
@@ -146,17 +146,32 @@
 		</div>	
 		<div class="feedback">
 				<br /><br /><br /><br /><br />
-				<h1><a name="feedback">FEEDBACK</a></h1>
+				<h1><a name="feedback" class="feedback_heading">FEEDBACK</a></h1>
 				<div class="textfield">
-					<p> Name :                     <input type="text" /></p>
-					<p> Email ID :                 <input type="text" /></p>
-					<p> Any Suggestion/Complain :  <input type="text" /></p>
+					<table>
+					<tr><td>Name :</td>
+						<td><input type="text" /></td>
+					</tr>
+					<tr>
+						<td>Email ID :</td>
+						<td><input type="text" /></td>
+					</tr>
+					<tr>
+						<td>Any Suggestion/Complain :</td>
+						<td><input type="text" /></td>
+					</tr>
+					</table>
 					
+					<div class="submit">
+						<input type="submit" value="Submit" style="padding:10px;" />
+					</div>
+
 				</div>	
 				<br />
 				<br />
-				<div class="submit">
-					<input type="submit" value="Submit" style="padding:10px;" />
+				
+				<div class="feedback_picture">
+					<img src="feedback.png" height="200px" width="200px">
 				</div>
 				
 		</div>
